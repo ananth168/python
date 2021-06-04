@@ -9,8 +9,8 @@ def search(arr, key):  # this function searches for a given key in a input array
     print("not found")
 
 
-arr = [7, 3, 5, 1, 8]
-key = (int(input("enter any number  ")))
+a = [7, 3, 5, 1, 8]
+k = (int(input("enter any number  ")))
 
-print(search(arr, key))
+print(search(a, k))
 
