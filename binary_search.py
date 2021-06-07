@@ -21,7 +21,15 @@ def binarySearch(my_array, target):
     return
 
 
-array = [2, 6, 7, 12, 45, 67, 89]
+array = []
+numbers = int(input('enter number of elements: '))
+for i in range(numbers):
+    data = int(input())
+    array.append(data)
+    array.sort()
+
+print(array)
+
 key = int(input('enter any digit: '))
 
 print(binarySearch(array, key))
