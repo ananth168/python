@@ -3,7 +3,7 @@ def mergeSort(my_array):
         return my_array
 
     middle = len(my_array) // 2
-    left = my_array[:middle]
+    left = my_array[:middle]  #deviding
     right = my_array[middle:]
 
     left_result = mergeSort(left)
@@ -12,7 +12,7 @@ def mergeSort(my_array):
     return merge(left_result, right_result)
 
 
-def merge(left_result, right_result):
+def merge(left_result, right_result):   #merging
     result = [None] * (len(left_result) + len(right_result))
     i = j = k = 0
 
