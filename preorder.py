@@ -11,7 +11,7 @@ class BinaryTree():
 
     
 
-    def Preorder(self, start, traversal):
+    def Preorder(self, start, traversal):    #root -> left -> right
         if start is None:
             return
 
