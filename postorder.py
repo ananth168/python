@@ -9,7 +9,7 @@ class BinaryTree():
         self.root = Node(value)
 
 
-    def Postorder(self, start, traversal):       # left ->  root  -> right
+    def Postorder(self, start, traversal):       # left -> right -> root
         if start is None:
             return
 
