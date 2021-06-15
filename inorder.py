@@ -8,7 +8,7 @@ class Binarytree():
     def __init__(self, value):
         self.root = Node(value)
 
-    def Inorder(self, start, traversal):  #root left right
+    def Inorder(self, start, traversal):  # left -> root -> right
         if start is None:
             return
 
