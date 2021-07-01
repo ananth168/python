@@ -9,7 +9,7 @@ class Solution:
         cur = head
         suc = None
 
-        while cur:                 #reversing
+        while cur:                 #reversing the singly linked list
             suc = cur.next
             cur.next = pre
             pre = cur 
